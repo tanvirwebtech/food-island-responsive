@@ -1,0 +1,331 @@
+@import "./mixin.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// Variables //
+$primary-color: #fba24f;
+$primary-red: #ff1e1e;
+$primary-black: #18191f;
+$secondary-black: #252525;
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: $secondary-black;
+    line-height: 2.7rem;
+    padding: 15px 0;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-heading {
+    font-size: 4rem;
+}
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.color-orange {
+    color: $primary-color;
+}
+
+// Mixins
+
+//
+
+header {
+    height: 100px;
+}
+nav {
+    background-color: #fff;
+    width: 94%;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+}
+.logo img {
+    display: inline-block;
+    width: 95%;
+}
+.navbar-nav {
+    .nav-item {
+        margin: 0 15px;
+        a {
+            display: inline-block;
+            color: $primary-color;
+            font-weight: 600;
+        }
+        a:hover {
+            color: $primary-red;
+            transition: 0.3s all;
+        }
+    }
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.nav-icon {
+    fill: #fba24f;
+    transform: scale(2.5);
+}
+.nav-icon:hover {
+    fill: #ff1e1e;
+}
+.nav-icon:focus {
+    fill: #ff1e1e;
+}
+.sign-in {
+    background: #fff;
+    color: #252525;
+    border: #fba24f;
+    padding: 15px 25px;
+}
+.sign-up {
+    padding: 15px 25px;
+}
+#hero-section {
+    font-size: 1.6rem;
+}
+.hero-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-right: 50px;
+    h1 {
+        font-size: 6rem;
+        color: $secondary-black;
+        line-height: 7.5rem;
+        span {
+            color: $primary-color;
+        }
+    }
+    .order-button {
+        text-align: left;
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        a {
+            @include button();
+        }
+    }
+}
+.hero-banner {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#about {
+    background-image: url(../images/about-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.about-img {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-right: 60px;
+
+    h1 {
+        font-size: 3.6rem;
+        color: $primary-black;
+        line-height: 4.6rem;
+    }
+    .contact-button {
+        display: block;
+        width: 100%;
+        text-align: left;
+        a {
+            @include button();
+        }
+    }
+}
+
+.work-heading {
+    padding: 30px 0;
+    h2 {
+        font-size: 3.6rem;
+        line-height: 4.6rem;
+    }
+    p {
+        font-size: 1.6rem;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.card {
+    height: 520px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    .card-thumb img {
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        width: 100%;
+    }
+}
+.counter-wrapper {
+    padding: 30px 0;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.counter-body {
+    h3 {
+        font-size: 4.8rem;
+    }
+}
+
+.testimonial-heading {
+    margin-bottom: 60px;
+}
+.review-slider-wrap {
+    height: 80%;
+}
+.person-img {
+    width: 100px;
+    margin: 0 auto;
+    img {
+        width: 100%;
+    }
+}
+.review-text {
+    margin: 0 50px;
+    h3 {
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+    .company {
+        font-size: 1.4rem;
+    }
+}
+.owl-nav {
+    position: relative;
+    .owl-prev {
+        position: absolute;
+        left: -50px;
+        top: -152px;
+        i {
+            font-size: 4.2rem;
+            color: $primary-color;
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            transition: color 0.3s, box-shadow 0.3s;
+        }
+        i:hover {
+            color: $primary-red;
+            box-shadow: 0px 0px 40px $primary-color;
+        }
+    }
+    .owl-next {
+        position: absolute;
+        right: -50px;
+        top: -152px;
+        i {
+            font-size: 4.2rem;
+            color: $primary-color;
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            transition: color 0.3s, box-shadow 0.3s;
+        }
+        i:hover {
+            color: $primary-red;
+            box-shadow: 0px 0px 40px $primary-color;
+        }
+    }
+}
+
+#contact-form {
+    background-image: url(../images/conatact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-wrapper {
+    margin-top: 50px;
+}
+#full-name,
+#message,
+#email {
+    width: 60%;
+    padding: 15px 10px;
+    background: transparent;
+    margin: 0 auto;
+    border: 1px solid $secondary-black;
+    font-size: 1.6rem;
+}
+.form-control:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#submit-button {
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 1px solid #fba24f;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #fba24f;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+#submit-button:hover {
+    cursor: pointer;
+    background-color: #fba24f;
+    color: #fff;
+}
+#footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #0b0d17;
+    h3 {
+        color: #5b5b5b;
+    }
+    p {
+        color: #fff;
+    }
+}

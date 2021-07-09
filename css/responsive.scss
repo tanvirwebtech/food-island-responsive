@@ -1,0 +1,346 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .section-padding {
+        padding: 40px 0;
+    }
+    .navbar-nav {
+        height: 100vh;
+        li {
+            text-align: center;
+            a {
+                font-size: 3rem;
+            }
+        }
+    }
+    .hero-info {
+        margin: 0 auto;
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            line-height: 4rem;
+        }
+        p {
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.8rem;
+            padding: 5px 0;
+        }
+        .order-button {
+            margin: 10px auto;
+            text-align: center;
+            a {
+                font-size: 1.3rem;
+                padding: 10px 15px;
+            }
+        }
+    }
+    #about {
+        background-size: cover;
+    }
+    .about-info {
+        margin-right: 0;
+        .about-heading {
+            h1 {
+                font-size: 3rem;
+                text-align: center;
+            }
+        }
+        .contact-button {
+            text-align: center;
+            a {
+                font-size: 1.3rem;
+                padding: 10px 15px;
+            }
+        }
+        p {
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+            text-align: center;
+            padding: 5px 0;
+        }
+    }
+    .work-heading {
+        padding: 15px 0;
+    }
+    .work-heading p {
+        font-size: 1.4rem;
+        width: 90%;
+        line-height: 2.2rem;
+    }
+    .card {
+        height: 100%;
+        border-radius: 25px;
+        .card-body {
+            text-align: center;
+            padding-bottom: 50px;
+            .card-title {
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 1.4rem;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    .counter-body {
+        h3 {
+            font-size: 3rem;
+        }
+        span {
+            font-size: 1.5rem;
+        }
+    }
+    .testimonial-heading {
+        margin-bottom: 30px;
+        .section-heading {
+            font-size: 3rem;
+        }
+    }
+    .person-img {
+        width: 80px;
+    }
+    .review-text {
+        margin: 0 50px;
+        h3 {
+            font-size: 1.8rem;
+            margin-top: 10px;
+        }
+        .company {
+            font-size: 1.3rem;
+        }
+        p {
+            font-size: 1.4rem;
+        }
+    }
+    .owl-nav {
+        .owl-prev {
+            left: -15px;
+            top: -200px;
+            i {
+                font-size: 3rem;
+                padding: 9px 16px;
+            }
+        }
+        .owl-next {
+            top: -200px;
+            right: -15px;
+            i {
+                font-size: 3rem;
+                padding: 9px 16px;
+            }
+        }
+    }
+    #contact-form {
+        background-position: center;
+    }
+    #footer {
+        padding-bottom: 40px;
+        .section-heading {
+            font-size: 2.8rem;
+        }
+        p {
+            font-size: 14px;
+            padding: 0;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section-padding {
+        padding: 50px 0;
+    }
+    .hero-info {
+        h1 {
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+        p {
+            font-size: 15px;
+            line-height: 2rem;
+        }
+        .order-button {
+            margin-top: 0;
+            a {
+                font-size: 1.4rem;
+                padding: 12px 18px;
+            }
+        }
+    }
+    .about-info {
+        margin-right: 0;
+        .contact-button {
+            a {
+                font-size: 1.6rem;
+                padding: 12px 28px;
+            }
+        }
+        p {
+            font-size: 1.4rem;
+            line-height: 2rem;
+        }
+    }
+    .about-img {
+        width: 69%;
+    }
+    .work-heading {
+        padding: 15px 0;
+    }
+    .work-heading p {
+        font-size: 1.4rem;
+        width: 70%;
+    }
+    .card {
+        height: 100%;
+        border-radius: 25px;
+        .card-body {
+            p {
+                font-size: 1.4rem;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    .counter-body {
+        h3 {
+            font-size: 2.8rem;
+        }
+        span {
+            font-size: 1.3rem;
+        }
+    }
+    .testimonial-heading {
+        margin-bottom: 30px;
+        .section-heading {
+            font-size: 2.8rem;
+        }
+    }
+    .person-img {
+        width: 80px;
+    }
+    .review-text {
+        margin: 0 50px;
+        h3 {
+            font-size: 1.8rem;
+            margin-top: 10px;
+        }
+        .company {
+            font-size: 1.3rem;
+        }
+        p {
+            font-size: 1.4rem;
+        }
+    }
+    .owl-nav {
+        .owl-prev {
+            top: -200px;
+            i {
+                font-size: 3rem;
+                padding: 9px 16px;
+            }
+        }
+        .owl-next {
+            top: -200px;
+            i {
+                font-size: 3rem;
+                padding: 9px 16px;
+            }
+        }
+    }
+    #footer {
+        padding-bottom: 50px;
+        .section-heading {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 15px;
+            padding: 0;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-padding {
+        padding: 50px 0;
+    }
+    .section-heading {
+        font-size: 3.2rem;
+    }
+    .hero-info {
+        h1 {
+            font-size: 4rem;
+            line-height: 6rem;
+        }
+    }
+
+    .hero-info .order-button a {
+        font-size: 1.6rem;
+        padding: 15px 20px;
+    }
+
+    .about-info {
+        margin-right: 0;
+        .contact-button {
+            display: block;
+            width: 100%;
+            text-align: left;
+            a {
+                font-size: 1.6rem;
+                padding: 15px 20px;
+            }
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 2.4rem;
+        }
+    }
+
+    .card {
+        height: 380px;
+        border-radius: 25px;
+        .card-body {
+            p {
+                font-size: 1.6rem;
+                line-height: 2.5rem;
+            }
+        }
+    }
+    .counter-body {
+        h3 {
+            font-size: 3.6rem;
+        }
+        span {
+            font-size: 1.5rem;
+        }
+    }
+    .review-text {
+        p {
+            font-size: 1.5rem;
+        }
+    }
+    .owl-nav {
+        .owl-prev {
+            top: -180px;
+            i {
+                font-size: 3rem;
+                padding: 15px 20px;
+            }
+        }
+        .owl-next {
+            top: -180px;
+            i {
+                font-size: 3rem;
+                padding: 15px 20px;
+            }
+        }
+    }
+}
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) and (max-width: 1199.98px) {
+// }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }

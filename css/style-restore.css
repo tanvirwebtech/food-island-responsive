@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.color-orange {
+    color: #fba24f;
+}
+.btn {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    padding: 24px 32px;
+    border-radius: 40px;
+    background-image: linear-gradient(
+        88.33deg,
+        #fba24f -7.64%,
+        #ff1e1e 145.94%
+    );
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+}
+
+/* Common CSS End  */
+
+/* Header CSS  */
+#header {
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0px 2px 30px rgb(193 193 193 / 50%);
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+}
+.logo img {
+    width: 95%;
+}
+#menu-bar {
+    width: 50%;
+    text-align: center;
+}
+.menu-item {
+    display: inline;
+}
+.menu-item a {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 5px;
+    color: #575757;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.menu-item a:hover {
+    color: #fba24f;
+    transition: color 0.3s;
+}
+.sign-in {
+    background: #fff;
+    color: #252525;
+    border: #fba24f;
+    padding: 15px 25px;
+}
+.sign-up {
+    padding: 15px 25px;
+}
+/* Hero CSS  */
+.hero-width {
+    width: 90%;
+}
+#main-heading {
+    font-size: 6rem;
+    font-weight: 700;
+    color: #575757;
+}
+.hero-info p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #828282;
+    line-height: 3.2rem;
+    margin: 40px 0;
+}
+
+/* About Section CSS */
+
+#about {
+    margin-top: 100px;
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-img {
+    width: 50%;
+    text-align: center;
+}
+.about-img img {
+    width: 40%;
+}
+.about-info {
+    width: 50%;
+}
+.about-info h1 {
+    font-size: 4rem;
+    color: #707070;
+    font-weight: 700;
+}
+.about-info p {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+    color: #18191f;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.about-info a {
+    margin-top: 80px;
+    border-radius: 40px;
+    box-shadow: 0 3 28px #fc8f5970;
+    margin-bottom: 70px;
+}
+
+/* Work Sections CSS  */
+
+.work-heading {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.work-heading h1 {
+    font-size: 3.6rem;
+    color: #18191f;
+    font-weight: 700;
+}
+.work-heading p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+    color: #252525;
+    margin-top: 30px;
+}
+.work-cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.single-card {
+    width: 30%;
+    height: 528px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.card-thumb img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+}
+.card-body {
+    padding: 20px;
+}
+.card-body h3 {
+    font-size: 2.8rem;
+    line-height: 4rem;
+    color: #18191f;
+    font-weight: 700;
+}
+.card-body p {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    color: #18191f;
+    margin-top: 30px;
+}
+
+/* Counter Area CSS  */
+#counter {
+    margin-top: 60px;
+}
+.counter-area {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 35px #0000001a;
+}
+.counter {
+    width: 30%;
+    padding: 40px 0;
+    text-align: center;
+}
+.counter h2 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: #18191f;
+}
+.counter span {
+    font-size: 1.6rem;
+    color: #18191f;
+}
+
+/* Testimonial Area CSS  */
+#testimonial {
+    margin-top: 70px;
+}
+
+.testimonial-area {
+    width: 90%;
+    margin: 0 auto;
+}
+.testimonial-info {
+    text-align: center;
+}
+.testimonial-info h2 {
+    font-size: 3.6rem;
+    color: #18191f;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.review-item {
+    width: 30%;
+    border: 1px solid #fba24f;
+    height: 450px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.person-img {
+    width: 150px;
+    margin: 0 auto;
+}
+.person-img img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.review-text {
+    text-align: center;
+    padding: 15px 30px;
+}
+.review-text h3 {
+    font-size: 2rem;
+    color: #18191f;
+    padding: 10px 0;
+}
+.review-text p {
+    font-size: 1.6rem;
+    color: #252525;
+    padding: 10px 0;
+}
+
+/* Contact Form CSS  */
+
+#contact-form {
+    margin-top: 70px;
+    padding-bottom: 100px;
+    background-image: url(images/conatact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-area {
+    width: 90%;
+    margin: 0 auto;
+}
+.contact-area h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.form-wrapper {
+    width: 60%;
+    height: 550px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #18191f;
+    border-left: 1px solid #fba24f;
+}
+form {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#name,
+#email,
+#msg {
+    display: block;
+    padding: 10px 11px;
+    width: 243px;
+    height: 30px;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    background: transparent;
+    border-radius: 14px;
+    border: 1px solid #252525;
+}
+#msg {
+    height: auto;
+}
+
+#contact-submit {
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 1px solid #fba24f;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #fba24f;
+}
+#contact-submit:hover {
+    cursor: pointer;
+    background-color: #fba24f;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+input,
+textarea:focus {
+    outline: none;
+}
+/* Footer CSS  */
+#footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #0b0d17;
+}
+#footer h3 {
+    color: #5b5b5b;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+#footer p {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}

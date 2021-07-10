@@ -1,5 +1,6 @@
 @import "./mixin.scss";
 
+//Common CSS
 * {
     margin: 0;
     padding: 0;
@@ -47,9 +48,9 @@ h4 {
     color: $primary-color;
 }
 
-// Mixins
+// Common CSS End
 
-//
+// Header CSS
 
 header {
     height: 100px;
@@ -91,15 +92,10 @@ nav {
     fill: #ff1e1e;
 }
 
-.sign-in {
-    background: #fff;
-    color: #252525;
-    border: #fba24f;
-    padding: 15px 25px;
-}
-.sign-up {
-    padding: 15px 25px;
-}
+// Header CSS End
+
+// Hero CSS //
+
 #hero-section {
     font-size: 1.6rem;
 }
@@ -135,6 +131,7 @@ nav {
     }
 }
 
+// About CSS
 #about {
     background-image: url(../images/about-bg.png);
     background-size: 100%;
@@ -173,6 +170,7 @@ nav {
     }
 }
 
+// Work CSS
 .work-heading {
     padding: 30px 0;
     h2 {
@@ -198,6 +196,8 @@ nav {
         width: 100%;
     }
 }
+
+// Counter
 .counter-wrapper {
     padding: 30px 0;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -208,6 +208,7 @@ nav {
     }
 }
 
+// Testimonial CSS
 .testimonial-heading {
     margin-bottom: 60px;
 }
@@ -271,6 +272,8 @@ nav {
     }
 }
 
+// Contact CSS
+
 #contact-form {
     background-image: url(../images/conatact-bg.jpg);
     background-repeat: no-repeat;
@@ -315,6 +318,8 @@ nav {
     background-color: #fba24f;
     color: #fff;
 }
+// Footer CSS
+
 #footer {
     text-align: center;
     padding-top: 40px;
